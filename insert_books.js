@@ -131,7 +131,37 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
-  }
+  },
+  {
+    title: 'The Picture of Dorian Gray',
+    author: 'Oscar Wilde',
+    genre: 'Philosophical Fiction',
+    published_year: 1890,
+    price: 11.99,
+    in_stock: true,
+    pages: 254,
+    publisher: "Lippincott's, Monthly Magazine",
+  },
+  { 
+    title: 'The Handmaid\'s Tale',
+    author: 'Margaret Atwood',
+    genre: 'Dystopian',
+    published_year: 1985,
+    price: 12.99,
+    in_stock: true,
+    pages: 311,
+    publisher: 'McClelland and Stewart'
+  },
+  {
+    title: 'The Testaments',
+    author: 'Margaret Atwood',
+    genre: 'Dystopian',
+    published_year: 2019,
+    price: 14.99,
+    in_stock: true,
+    pages: 368,
+    publisher: 'Nan A. Talese'
+  },
 ];
 
 // Function to insert books into MongoDB
